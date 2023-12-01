@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>Jessa's Foto Booth</title>
+	<link rel="stylesheet" href="site.css">
+	<script src="slideshow.js"></script>
+</head>
+
+<body>
+<div class="navBar">
+<ul class="navUL">
+  <li class="navLi"><a class="navA" href="index.html">Home</a></li>
+  <li class="navLi"><a id="active" class="navA" href="portfolio.html">Portfolio</a></li>
+  <li class="navLi"><a class="navA" href="investment.html">Investment</a></li>
+  <li class="navLi"><a class="navA" href="contact.html">Contact</a></li>
+  <li class="navLi"><a class="navA" href="book.html">Book</a></li>
+  <li class="navLi"><a class="navA" href="https://www.instagram.com/jessamarie.photography/" target="_blank">Instagram</a></li>
+</ul>
+</div>
+<script>
+window.onload = function () {
+        showSlides(slideIndex);
+    };
+</script>
+
+<div class="slideshow-container">
+    <!-- Slides -->
+    <div class="mySlides">
+        <img src="IMG_1808.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="IMG_4595.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="IMG_4775.jpg" style="width:100%">
+    </div>
+
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<p style="color:#fff; text-align:center;">Finding beauty in your familiar and capturing life's simplicities with bold color and lot's of heart.</p>
+
+<div style="width:100%;">
+	<div class="trioContainer">
+		<img src="IMG_4885.jpg" style="height:500px">
+		<p>Travel Sessions available for 2024</p>
+		<a href="book.html"><button class="bookButton">Book Now</button></a>
+	</div>
+	<div class="trioContainer">
+		<img src="IMG_1808.jpg" style="height:500px">
+		<p>Learn more about pricing</p>
+		<a href="investment.html"><button class="bookButton">Pricing</button></a>
+	</div>
+	<div class="trioContainer">
+		<img src="IMG_4595.jpg" style="height:500px">
+		<p>See what can be done</p>
+		<a href="portfolio.html"><button class="bookButton">Portfolio</button></a>
+	</div>
+</body>
+
+<!--Footer Seciton -->
+<footer class="footer">
+	<table class="siteMap">
+		<tr>
+			<th>Site</th>
+			<th>Book</th>
+			<th>Socials</th>
+		</tr>
+		<tr>
+			<td><a href="index.html">Home</a></td>
+			<td><a href="investment.html">One Hour Session</a></td>
+			<td><a href="https://www.instagram.com/jessamarie.photography/">Instagram</a></td>
+		</tr>
+		<tr>
+			<td><a href="portfolio.html">Portfolio</a></td>
+			<td><a href="portfolio.html">Travel Sessions</a></td>
+			<td><a href="http://www.facebook.com/">Facebook</a></td>
+		</tr>
+		<tr>
+			<td><a href="investment.html">Investment</a></td>
+			<td><a href="investment.html">Custom Shoots</a></td>
+		</tr>
+		<tr>
+			<td><a href="book.html">Calender</a></td>
+		</tr>
+	</table>
+	<p style="color:#fff; text-align:center;">&copy Copyright 2023 Jessa's Foto Booth LLC.</p>
+	<br/>
+</footer>
+</html>
